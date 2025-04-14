@@ -1,4 +1,26 @@
 html,
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  padding: 1rem 0;
+}
+
+.header__image {
+  width: 24px;
+  height: 24px;
+}
+
+.header__title {
+  font-size: 14.46px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: -1.08px;
 }
